@@ -13,7 +13,7 @@ Rada plešem, pojem, jaham in obožujem živali. Moja najljjubša žival je tige
 
 
  <div class="img-container">
-    <img src="{{ site.imageurl }}/rori.jpg">
+    <img src="{{site.url}}/{{ site.imageurl }}/rori.jpg">
     <div class="img-caption">
     <p>Moj tigrček</p>
     </div>
