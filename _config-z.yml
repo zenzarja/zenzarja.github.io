@@ -1,0 +1,24 @@
+permalink:      /:year/:month/:title        
+relative_permalinks: true
+
+# Setup
+title:               Zarjino kraljestvo
+tagline:             velike zabave
+description:         "Mlado, sodobno dekle mora imeti svojo spletno stran.Zato bom pisala o plesu,modi,vsakdanjem ¾ivljenju,makeupu,¾ivalih,jahanju in vèasih tudi o problemih,rutinah,opisih dneva, ipd. Seveda pa bom objavila tudi slike.Lep pozdrav in upam da vam bo moj blog v¹eè. XOXO!"
+baseurl:             ""
+imageurl:            /public/images           
+paginate:            5
+
+# About/contact
+author:
+  name:              Zarja Jesensek
+  url:               https://zenzarja.github.io
+  email:             zarjajesensekafnagmailpikacom
+  github:            https://github.com/zenzarja
+  
+# Custom vars
+version:             0.0.1
+excerpt_separator:   <!--more-->
+
+
+gems: [jekyll-paginate]
