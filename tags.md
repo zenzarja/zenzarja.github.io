@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Teme
-description: Seznam tem bloga
+title: Teme (tags)
+description: seznam tem bloga
 ---
 
 

@@ -1,10 +1,10 @@
 permalink:      /:year/:month/:title        
-relative_permalinks: true
+#relative_permalinks: true
 
 # Setup
 title:               Zarjino kraljestvo
 tagline:             ' velike zabave'
-description:         "Mlado, sodobno dekle mora imeti svojo spletno stran. Zato bom pisala o plesu, modi, vsakdanjem življenju, makeupu, živalih, jahanju in včasih tudi o problemih, rutinah,opisih dneva, ipd. Seveda bom objavljala tudi slike. Lep pozdrav in upam da vam bo moj blog všeč. XOXO."
+description:         "Mlado, sodobno dekle mora imeti svojo spletno stran. V tem blogu bom predstavljala svoj pogled na svet, v katerem bom pisala s pisanjem o plesu, modi, vsakdanjem življenju, makeupu, živalih, jahanju in včasih tudi o problemih odraščanja. Seveda bom objavljala tudi slike. Lep pozdrav in upam, da vam bo moj blog všeč. XOXO."
 baseurl:             ''
 url:                  https://zenzarja.github.io
 imageurl:            /public/images           

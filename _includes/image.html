@@ -1,11 +1,16 @@
-{% capture imageName %}{{ include.name }}{% endcapture %}
 {% if include.caption %}
 <div class="img-container">
-<img src="{{ site.imageurl}}/{{ imageName }}"/>
+<img src="{{ site.imageurl}}/{{ page.img }}"/>
 <div class="img-caption">
 <p>{{ include.caption }}</p>
 </div>
 </div>
 {% else %}
-<img src="{{ site.url }}{{ site.imageurl}}/{{ imageName }}"/>
+<div class="img-container">
+<img src="{{ site.imageurl}}/{{ page.img }}"/>
+</div>
 {% endif %}
+
+
+
+   

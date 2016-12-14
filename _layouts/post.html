@@ -24,7 +24,7 @@ layout: default
       {% if post.tags[0]==page.tags[0] %}
       <li>
         <h3>
-          <a href="{{ site.url }}{{ post.url }}">
+          <a href="{{ site.baseurl }}{{ post.url }}">
             {{ post.title }}
             <small>{{ post.date | date_to_string }}</small>
           </a>
@@ -34,4 +34,23 @@ layout: default
       {% endif %}
     {% endfor %}
   </ul>
+
+<div id="vanilla-comments"></div> 
+<script type="text/javascript"> 
+         var vanilla_forum_url = 'http://ianus.si/blog_comments'; 
+         var vanilla_identifier = '{{ page.id }}'; // 
+
+         // var vanilla_discussion_id = ''; // Attach this page of comments to a specific Vanilla DiscussionID. 
+        var vanilla_category_id = '6'; // Create this discussion in a specific Vanilla CategoryID. 
+
+/*** DON'T EDIT BELOW THIS LINE ***/ 
+(function() { 
+var vanilla = document.createElement('script'); 
+vanilla.type = 'text/javascript'; 
+var timestamp = new Date().getTime(); 
+vanilla.src = vanilla_forum_url + '/js/embed.js'; (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(vanilla); })(); 
+</script> 
+<noscript>Please enable JavaScript to view the <a href="http://vanillaforums.com/?ref_noscript">comments powered by Vanilla.</a></noscript>
+
+
 </div>
