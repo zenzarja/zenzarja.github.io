@@ -15,9 +15,7 @@ layout: default
 </div>
 
 <div class="related">
-
-
-  <h2>Related Posts</h2>
+  <h3>Related Posts</h3>
   <ul class="related-posts">
     {% for post in site.posts limit:3 %}
      {% if post.title != page.title %}
@@ -35,20 +33,8 @@ layout: default
     {% endfor %}
   </ul>
 
-<div id="vanilla-comments"></div> 
-<script type="text/javascript"> 
-         var vanilla_forum_url = 'http://ianus.si/blog_comments'; 
-         var vanilla_identifier = '{{ page.id }}'; // 
-         // var vanilla_discussion_id = ''; // Attach this page of comments to a specific Vanilla DiscussionID. 
-        var vanilla_category_id = ' '; // Create this discussion in a specific Vanilla CategoryID. 
-/*** DON'T EDIT BELOW THIS LINE ***/ 
-(function() { 
-var vanilla = document.createElement('script'); 
-vanilla.type = 'text/javascript'; 
-var timestamp = new Date().getTime(); 
-vanilla.src = vanilla_forum_url + '/js/embed.js'; (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(vanilla); })(); 
-</script> 
-
-
+        <a class="muut" href="https://muut.com/i/franko-blog/comments" type="dynamic">franko-blog</a>
+        <script src="//cdn.muut.com/1/moot.min.js"></script>
+      
 
 </div>

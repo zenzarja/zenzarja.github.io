@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Teme (tags)
-description: seznam tem bloga
+title: Teme
+description: o katerih se tu razglablja
 ---
 
 
@@ -20,7 +20,7 @@ to the `site_tags` variable. -->
     {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
     <li>
       <a href="#{{ this_word | cgi_escape }}" class="tag">{{ this_word }}
-        <span>({{ site.tags[this_word].size }})</span>
+        <span style="font-size: 0.7rem;">({{ site.tags[this_word].size }})</span>
       </a>
     </li>
   {% endunless %}{% endfor %}
@@ -37,7 +37,7 @@ to the `site_tags` variable. -->
           <a href="{{ post.url }}">{{ post.title }}</a>
         </span>
         <span style="float: right;">
-          {{ post.date | date_to_string }}
+          {{ post.date | date_to_long_string | downcase }}
         </span>
       </div>
       <div style="clear: both;"></div>
